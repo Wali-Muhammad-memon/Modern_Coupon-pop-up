@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+}
+body{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #7cffc9 !important;
+}
+   	ul,
+		p,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		label {
+   			font-family: 'Georama', sans-serif;
+		   margin: 0px !important;
+		}
+
+		.modal-header {
+		    padding: 0 !important;
+		}
+		.modal-title {
+		    background: #9cc623;
+		    display: inline-block;
+		    position: relative;
+		    left: 250px;
+		    border-radius: 0 0 5px 5px;
+		    box-shadow: -3px 3px 0px #0002;
+		    color: #fff;
+		    top: -10px;
+		    padding: 5px 30px;
+		}
+
+		.modal-title:before {
+		    position: absolute;
+		    content: '';
+		    height: 10px;
+		    width: 10px;
+		    background: #7fa513;
+		    top: 0;
+		    right: 100%;
+		    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+		}
+
+		.modal-content {
+		    overflow: inherit;
+		    border: 0;
+		    display: flex;
+		    border-radius: 10px;
+		}
+
+		.store_title_modal {
+		    display: flex;
+		    grid-gap: 20px;
+		    padding-bottom: 20px;
+		    align-items: center;
+		    margin-top: -10px;
+		    padding: 0 20px;
+		    padding-bottom: 15px;
+		}
+		.store_modal {
+		    font-size: 20px;
+		    font-weight: 600;
+		    color: #4d6603;
+		}
+		.modal_title_img {
+		    height: 80px;
+		    flex: 0 0 auto;
+		    width: 80px;
+		    box-shadow: 0 0 10px #0001;
+		    background: #7fa513;
+		    border-radius: 50%;
+		    overflow: hidden;
+		}
+		.modal_title_img .web_imagebox {
+		   height: 100%;
+		   width: 100%;
+		}
+
+		.modal_title_img .web_imagebox img {
+		   max-height: 100%;
+		   max-width: 100%;
+		   border-radius: 5px;
+		}
+
+		.close_modal {
+		   height: 30px;
+		   width: 30px;
+		   background: #9cc623 !important;
+		   opacity: 1;
+		   border-radius: 50%;
+		   position: absolute;
+		   top: -15px;
+		   right: -15px;
+		}
+
+		.close_modal:hover,
+		.close_modal:focus {
+		   opacity: 1;
+		}
+
+		.close_modal span {
+		   font-size: 25px;
+		   font-weight: 600;
+		   text-shadow: none;
+		   color: #fff;
+		}
+		.modal-body {
+		    display: flex;
+		    justify-content: space-between;
+		    align-items: flex-start;
+		    overflow: hidden;
+		    padding: 0 !important;
+		}
+		.modal_body_main {
+		    padding: 20px;
+		    display: flex;
+		    flex-direction: column;
+		    grid-gap: 10px;
+		    align-items: center;
+		}
+		.modal_body_main p {
+		    font-size: 14px;
+		    font-weight: 500;
+		    color: #0009;
+		    text-align: center;
+		}
+		.modal_code {
+		    padding: 8px 0;
+		    max-width: 200px;
+		    width: 100%;
+		    border: 2px dashed #9cc623;
+		    background: #f7ffdf;
+		    font-weight: 600;
+		    border-radius: 5px;
+		    display: flex;
+		    font-size: 15px;
+		    align-items: center;
+		    justify-content: center;
+		}
+		.visit_site {
+		    font-size: 14px;
+		    font-weight: 500;
+		    color: #ffffff;
+		    padding: 8px 15px;
+		    display: inline-block;
+		    text-transform: capitalize;
+		    letter-spacing: 1px;
+		    border-radius: 10px 0;
+		    background: #87a72c;
+		    transition: 0.3s ease;
+		}
+		.visit_site i{
+			font-size: 15px;
+		}
+		.visit_site:hover{
+		    border-radius: 5px;
+		}
+		.modal_body_sidebar {
+		    flex: 0 0 200px;
+		    background: #87a72c;
+		    box-shadow: 0 0 10px #0001;
+		    display: flex;
+		    justify-content: center;
+		    border-radius: 0 10px 10px 0;
+		    flex-direction: column;
+		}
+
+		.modal_badge {
+		    display: flex;
+		    align-items: flex-start;
+		    grid-gap: 10px;
+			justify-content: center;
+			align-items: center;
+		    padding: 10px;
+		    border-bottom: 1px solid #fff3;
+		}
+		.modal_badge:last-of-type{
+			border: 0;
+		}
+		.modal_badge_content{
+			display: flex;			
+			grid-gap: 2px;
+			flex-direction: column;
+		}
+		.modal_badge_content_title{
+			font-size: 14px;
+			font-weight: 400;
+			text-transform: capitalize;
+			color: #fff;
+		}
+		.modal_badge_content_title ~ p {
+		    font-weight: 500;
+		    color: #fff9;
+		    font-size: 13px;
+		}
+		.modal_badge .stars i{
+			font-size: 20px;
+			color: #fff8;
+		}
+		.modal_badge .stars i:hover{
+			color: #ffc107;
+		}
+		.svg_icon{
+			height: 15px;
+			width: 15px;
+			fill: #fff;
+			filter: drop-shadow(0 1px 2px rgba(0,0,0,.25);
+		}
